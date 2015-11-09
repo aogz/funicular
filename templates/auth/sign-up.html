@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% from "_form_helpers.html" import render_field %}
+
+{% block title %}
+    Sign Up
+{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        {{ render_field(form.email) }}
+        {{ render_field(form.password) }}
+        {{ render_field(form.accept_rules) }}
+        <input type="submit" class="button button-primary" value="Sign Up" />
+    </form>
+{% endblock %}

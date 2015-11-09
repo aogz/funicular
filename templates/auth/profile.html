@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% from "_form_helpers.html" import render_field %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        {{ render_field(form.current_password) }}
+        {{ render_field(form.new_password) }}
+        <input type="submit" class="button button-primary" value="Save" />
+    </form>
+{% endblock %}
