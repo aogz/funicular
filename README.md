@@ -1,6 +1,6 @@
 # funicular
 
-### Flask/MongoEngine/Flask-Login boiler plate
+### Flask/MongoEngine/Flask-Login boilerplate
 The app includes basic sign in, sign up, sign out and change password pages.
 
 
