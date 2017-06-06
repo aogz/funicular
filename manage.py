@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from flask.ext.script import Manager, Server
+from flask_script import Manager, Server
 from app import app
 
 import os
